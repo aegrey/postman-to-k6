@@ -1,9 +1,11 @@
 # POSTMAN TO k6
 
 
-This project is a friendly fork of [apideck-libraries/postman-to-k6](https://github.com/apideck-libraries/postman-to-k6) from the original [grafana/postman-to-k6](https://github.com/grafana/postman-to-k6), where I will focus on **building out new features not currently supported** alongside maintenance.   
+Due to the lack of feature support in the original library and the apideck fork, I have decided to build this out seperately as I require these features immediately in a project I'm working on. I will focus on **building out new features not currently supported** alongside maintenance     
    
-I have decided to build this out seperately as I require these features immediately in a project I'm working on.   
+
+<sup>This project is a friendly fork of [apideck-libraries/postman-to-k6](https://github.com/apideck-libraries/postman-to-k6) from the original [grafana/postman-to-k6](https://github.com/grafana/postman-to-k6).</sup>   
+
 
 #### Request a New Features
 Open an issue with your feature request (must me something currently supported in postman) and I'll work on the requests with the most votes in order.   
@@ -76,22 +78,22 @@ While possible to install globally, we recommend that you, if possible, add the 
 test project using:
 
 ```shell
-$ npm install -D @apideck/postman-to-k6
+$ npm install -D @aegrey/postman-to-k6
 ```
 
 or using yarn...
 
 ```shell
-$ yarn add @apideck/postman-to-k6
+$ yarn add @aegrey/postman-to-k6
 ```
 
-Note that this will require you to run the converter with `npx @apideck/postman-to-k6 your-postman-file` or, if you are
+Note that this will require you to run the converter with `npx @aegrey/postman-to-k6 your-postman-file` or, if you are
 using an older versions of npm, `./node_modules/.bin/postman-to-k6 your-postman-file`.
 
 ### Global Installation
 
 ```shell
-$ npm install -g @apideck/postman-to-k6
+$ npm install -g @aegrey/postman-to-k6
 ```
 
 ## Usage
