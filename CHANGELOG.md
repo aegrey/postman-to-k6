@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased](https://github.com/aegrey/postman-to-k6/compare/v1.8.7...HEAD)
 
+## [1.9.1] - 2024-03-27
+
+### Added
+
+- Support for pm.response.headers.all() [#3](https://github.com/aegrey/postman-to-k6/issues/3)
+
 ## [1.9.0] - 2024-03-26
 
 ### Added
