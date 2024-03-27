@@ -11,7 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-- Support for pm.response.headers.get() (#1)
+- Support for pm.response.headers.get() [#1](https://github.com/aegrey/postman-to-k6/issues/1)
 
 ---
 

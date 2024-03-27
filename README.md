@@ -108,22 +108,6 @@ Then run the script in k6, as usual, using:
 $ k6 run k6-script.js
 ```
 
-## Video Introduction
-
-Together with [Nicole van der Hoeven](https://twitter.com/n_vanderhoeven) & [Paul Balogh](https://twitter.com/javaducky) from the [K6 team](https://www.youtube.com/@k6io), we talked about "[postman-to-k6](https://github.com/apideck-libraries/postman-to-k6)" in the [K6 Office Hours](http://www.youtube.com/watch?v=Be66Db4wHLA) podcast. We talked about how to convert a Postman collection to a k6 load test, the advantages of Postman, and the benefits of reusing automation testing scripts for performance.
-
-<a href="https://www.youtube.com/watch?v=Be66Db4wHLA" target="_blank" title="Postman for load testing using k6, with Tim Haselaars (k6 Office Hours #43)" rel="nofollow">
-<img src="https://raw.githubusercontent.com/apideck-libraries/postman-to-k6/main/assets/youtube-still.png" alt="Postman for load testing using k6, with Tim Haselaars (k6 Office Hours #43)" width="50%"></a>
-
-Watch it on Youtube >> https://www.youtube.com/watch?v=Be66Db4wHLA
-
-Topics covered:
-* Use cases for [k6](https://k6.io/)
-* Quick tour of [Postman](https://www.postman.com/)
-* Why Postman is not designed for load testing
-* Demo of [postman-to-k6](https://github.com/apideck-libraries/postman-to-k6)
-* How to use [Portman](https://blog.apideck.com/announcing-portman) to generate tests from an OpenAPI spec
-
 ## Options
 
 ### Iterations
@@ -331,7 +315,7 @@ $ postman-to-k6 example/v2/echo.json -o k6-script.js
 - Properties returning Postman classes:
     - `pm.request.url` `pm.request.headers`
     - Some features of `pm.response.headers` 
-        - `pm.response.heasers.get()` supported as of 1.9
+        - `pm.response.headers.get()` supported as of 1.9
 - The Hawk authentication method.
 - Deprecated `xmlToJson` method.
 - Request IDs are changed. Postman doesn't provide them in the export, so we have to generate new ones.
